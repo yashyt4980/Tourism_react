@@ -1,0 +1,67 @@
+.parentCard {
+    margin: auto auto 30px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    text-align: justify;
+    font-size: 1em;
+    border-radius: 12px;
+    box-shadow: 2px 8px 16px 2px rgba(0, 0, 0, 0.527);
+    padding: 15px 10px 15px 10px;
+    font-family: sans-serif;
+    max-height: 100vh;
+    height: auto;
+}
+
+.parentCard:hover {
+    transition: all .3s ease;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 2px 8px 16px 2px rgb(0, 0, 0);
+    transform: scale(1.0889);
+}
+
+.parentCard img {
+    height: 45vh;
+    width: 22vw;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.parentCard div {
+    color:rgb(28, 219, 95);
+    margin: 5px auto -12px 2px;
+
+}
+
+.parentCard h3 {
+    margin-bottom: -15px;
+}
+
+.parentCard p {
+    font-size: 15px;
+    display: inline;
+}
+
+.parentCard span {
+    color: blue;
+    font-size: 13px;
+    display: inline;
+    cursor:pointer;
+}
+
+.parentCard button {
+    margin: auto;
+    padding: 5px 20px 5px 20px;
+    background-color: pink;
+    border: 1px solid red;
+}
+
+.parentCard button:hover {
+    background-color: red;
+    color: white;
+    padding: 8px 32px 8px 32px;
+    transition: all 0.099s ease;
+    border: 1px solid black;
+}
