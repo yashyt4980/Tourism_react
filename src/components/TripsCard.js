@@ -12,7 +12,7 @@ function TripsCard(props) {
     }
     return(
         <div className = "parentCard">
-            <img src = {props.path} alt = "image will be loaded here"></img>
+            <img src = {props.path} alt = "Slow internet?"></img>
             <div>₹{props.price}</div>
             <h3>{props.city}</h3>
             <p>{isExpanded ? props.desc : `${props.desc.slice(0, 200)}...`}<span onClick={handleSpan}>{isExpanded ? 'Read Less' : 'Read More'}</span>
